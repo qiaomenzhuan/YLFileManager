@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95491A1720C90ADE00604C47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A1620C90ADE00604C47 /* AppDelegate.m */; };
+		95491A1A20C90ADE00604C47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A1920C90ADE00604C47 /* ViewController.m */; };
+		95491A1D20C90ADE00604C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95491A1B20C90ADE00604C47 /* Main.storyboard */; };
+		95491A1F20C90AE000604C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95491A1E20C90AE000604C47 /* Assets.xcassets */; };
+		95491A2220C90AE000604C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95491A2020C90AE000604C47 /* LaunchScreen.storyboard */; };
+		95491A2520C90AE000604C47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A2420C90AE000604C47 /* main.m */; };
+		95491A2F20C90AE000604C47 /* YLFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A2E20C90AE000604C47 /* YLFileManagerTests.m */; };
+		95491A3A20C90AE000604C47 /* YLFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A3920C90AE000604C47 /* YLFileManagerUITests.m */; };
+		95491A4920C90B1F00604C47 /* YLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95491A4820C90B1E00604C47 /* YLFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95491A2B20C90AE000604C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95491A0A20C90ADE00604C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95491A1120C90ADE00604C47;
+			remoteInfo = YLFileManager;
+		};
+		95491A3620C90AE000604C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95491A0A20C90ADE00604C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95491A1120C90ADE00604C47;
+			remoteInfo = YLFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95491A1220C90ADE00604C47 /* YLFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95491A1520C90ADE00604C47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95491A1620C90ADE00604C47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95491A1820C90ADE00604C47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95491A1920C90ADE00604C47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95491A1C20C90ADE00604C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95491A1E20C90AE000604C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95491A2120C90AE000604C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95491A2320C90AE000604C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95491A2420C90AE000604C47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95491A2A20C90AE000604C47 /* YLFileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLFileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95491A2E20C90AE000604C47 /* YLFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileManagerTests.m; sourceTree = "<group>"; };
+		95491A3020C90AE000604C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95491A3520C90AE000604C47 /* YLFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95491A3920C90AE000604C47 /* YLFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileManagerUITests.m; sourceTree = "<group>"; };
+		95491A3B20C90AE000604C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95491A4720C90B1E00604C47 /* YLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFileManager.h; sourceTree = "<group>"; };
+		95491A4820C90B1E00604C47 /* YLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95491A0F20C90ADE00604C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A2720C90AE000604C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A3220C90AE000604C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95491A0920C90ADE00604C47 = {
+			isa = PBXGroup;
+			children = (
+				95491A1420C90ADE00604C47 /* YLFileManager */,
+				95491A2D20C90AE000604C47 /* YLFileManagerTests */,
+				95491A3820C90AE000604C47 /* YLFileManagerUITests */,
+				95491A1320C90ADE00604C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95491A1320C90ADE00604C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95491A1220C90ADE00604C47 /* YLFileManager.app */,
+				95491A2A20C90AE000604C47 /* YLFileManagerTests.xctest */,
+				95491A3520C90AE000604C47 /* YLFileManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95491A1420C90ADE00604C47 /* YLFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				95491A1520C90ADE00604C47 /* AppDelegate.h */,
+				95491A1620C90ADE00604C47 /* AppDelegate.m */,
+				95491A1820C90ADE00604C47 /* ViewController.h */,
+				95491A1920C90ADE00604C47 /* ViewController.m */,
+				95491A4720C90B1E00604C47 /* YLFileManager.h */,
+				95491A4820C90B1E00604C47 /* YLFileManager.m */,
+				95491A1B20C90ADE00604C47 /* Main.storyboard */,
+				95491A1E20C90AE000604C47 /* Assets.xcassets */,
+				95491A2020C90AE000604C47 /* LaunchScreen.storyboard */,
+				95491A2320C90AE000604C47 /* Info.plist */,
+				95491A2420C90AE000604C47 /* main.m */,
+			);
+			path = YLFileManager;
+			sourceTree = "<group>";
+		};
+		95491A2D20C90AE000604C47 /* YLFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				95491A2E20C90AE000604C47 /* YLFileManagerTests.m */,
+				95491A3020C90AE000604C47 /* Info.plist */,
+			);
+			path = YLFileManagerTests;
+			sourceTree = "<group>";
+		};
+		95491A3820C90AE000604C47 /* YLFileManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95491A3920C90AE000604C47 /* YLFileManagerUITests.m */,
+				95491A3B20C90AE000604C47 /* Info.plist */,
+			);
+			path = YLFileManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95491A1120C90ADE00604C47 /* YLFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95491A3E20C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManager" */;
+			buildPhases = (
+				95491A0E20C90ADE00604C47 /* Sources */,
+				95491A0F20C90ADE00604C47 /* Frameworks */,
+				95491A1020C90ADE00604C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLFileManager;
+			productName = YLFileManager;
+			productReference = 95491A1220C90ADE00604C47 /* YLFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95491A2920C90AE000604C47 /* YLFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95491A4120C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManagerTests" */;
+			buildPhases = (
+				95491A2620C90AE000604C47 /* Sources */,
+				95491A2720C90AE000604C47 /* Frameworks */,
+				95491A2820C90AE000604C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95491A2C20C90AE000604C47 /* PBXTargetDependency */,
+			);
+			name = YLFileManagerTests;
+			productName = YLFileManagerTests;
+			productReference = 95491A2A20C90AE000604C47 /* YLFileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95491A3420C90AE000604C47 /* YLFileManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95491A4420C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManagerUITests" */;
+			buildPhases = (
+				95491A3120C90AE000604C47 /* Sources */,
+				95491A3220C90AE000604C47 /* Frameworks */,
+				95491A3320C90AE000604C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95491A3720C90AE000604C47 /* PBXTargetDependency */,
+			);
+			name = YLFileManagerUITests;
+			productName = YLFileManagerUITests;
+			productReference = 95491A3520C90AE000604C47 /* YLFileManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95491A0A20C90ADE00604C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = csda_Chinadance;
+				TargetAttributes = {
+					95491A1120C90ADE00604C47 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					95491A2920C90AE000604C47 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 95491A1120C90ADE00604C47;
+					};
+					95491A3420C90AE000604C47 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 95491A1120C90ADE00604C47;
+					};
+				};
+			};
+			buildConfigurationList = 95491A0D20C90ADE00604C47 /* Build configuration list for PBXProject "YLFileManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95491A0920C90ADE00604C47;
+			productRefGroup = 95491A1320C90ADE00604C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95491A1120C90ADE00604C47 /* YLFileManager */,
+				95491A2920C90AE000604C47 /* YLFileManagerTests */,
+				95491A3420C90AE000604C47 /* YLFileManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95491A1020C90ADE00604C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95491A2220C90AE000604C47 /* LaunchScreen.storyboard in Resources */,
+				95491A1F20C90AE000604C47 /* Assets.xcassets in Resources */,
+				95491A1D20C90ADE00604C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A2820C90AE000604C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A3320C90AE000604C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95491A0E20C90ADE00604C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95491A1A20C90ADE00604C47 /* ViewController.m in Sources */,
+				95491A2520C90AE000604C47 /* main.m in Sources */,
+				95491A4920C90B1F00604C47 /* YLFileManager.m in Sources */,
+				95491A1720C90ADE00604C47 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A2620C90AE000604C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95491A2F20C90AE000604C47 /* YLFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95491A3120C90AE000604C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95491A3A20C90AE000604C47 /* YLFileManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95491A2C20C90AE000604C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95491A1120C90ADE00604C47 /* YLFileManager */;
+			targetProxy = 95491A2B20C90AE000604C47 /* PBXContainerItemProxy */;
+		};
+		95491A3720C90AE000604C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95491A1120C90ADE00604C47 /* YLFileManager */;
+			targetProxy = 95491A3620C90AE000604C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95491A1B20C90ADE00604C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95491A1C20C90ADE00604C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95491A2020C90AE000604C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95491A2120C90AE000604C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95491A3C20C90AE000604C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95491A3D20C90AE000604C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95491A3F20C90AE000604C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95491A4020C90AE000604C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95491A4220C90AE000604C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLFileManager.app/YLFileManager";
+			};
+			name = Debug;
+		};
+		95491A4320C90AE000604C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLFileManager.app/YLFileManager";
+			};
+			name = Release;
+		};
+		95491A4520C90AE000604C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLFileManager;
+			};
+			name = Debug;
+		};
+		95491A4620C90AE000604C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLFileManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLFileManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95491A0D20C90ADE00604C47 /* Build configuration list for PBXProject "YLFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95491A3C20C90AE000604C47 /* Debug */,
+				95491A3D20C90AE000604C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95491A3E20C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95491A3F20C90AE000604C47 /* Debug */,
+				95491A4020C90AE000604C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95491A4120C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95491A4220C90AE000604C47 /* Debug */,
+				95491A4320C90AE000604C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95491A4420C90AE000604C47 /* Build configuration list for PBXNativeTarget "YLFileManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95491A4520C90AE000604C47 /* Debug */,
+				95491A4620C90AE000604C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95491A0A20C90ADE00604C47 /* Project object */;
+}
